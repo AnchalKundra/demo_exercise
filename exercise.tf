@@ -1,5 +1,4 @@
 provider "google" {
-  credentials = "${file("service-account.json")}"
   project     = "burner-anckundr"
   region      = "us-central1"
   zone        = "us-central1-a"
